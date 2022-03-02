@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Dexie14/GRAZAC_Challenge-.git](https://github.com/Dexie14/GRAZAC_Challenge-.git)
+- Solution URL: [https://github.com/Dexie14/Grazac_challenge2.git](https://github.com/Dexie14/Grazac_challenge2.git)add
 
 ## My process
 
