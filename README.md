@@ -24,10 +24,10 @@ Users should be able to:
 
 ![](./Hekto_Homepage.png)
 
-### Screenshot2
+## Screenshot2
 ![](./Hekto_About us.png)
 
-### Screenshot3
+## Screenshot3
 ![](./Hekto_Contact us.png)
 
 ### Links
