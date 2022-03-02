@@ -310,3 +310,23 @@
 .footicons img{
         margin-right: 5px;
 } 
+
+
+        /* responsive */
+
+        @media (max-width: 768px){
+            body {
+            position: absolute;
+             }  
+        }
+        
+        @media (max-width: 425px){
+            body {
+          position: absolute;
+              }  
+        }
+        @media (max-width: 375px){
+          body {
+        position: absolute;
+            }  
+        }
