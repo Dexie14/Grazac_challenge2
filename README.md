@@ -2,6 +2,8 @@
 
 - [Hekto](#Hekto)
   - [Screenshot](#screenshot)
+  - [Screenshot2](#screenshot2)
+  - [Screenshot3](#screenshot3)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -21,12 +23,16 @@ Users should be able to:
 ### Screenshot
 
 ![](./Hekto_Homepage.png)
+
+### Screenshot2
 ![](./Hekto_About us.png)
+
+### Screenshot3
 ![](./Hekto_Contact us.png)
 
 ### Links
 
-- Solution URL: [https://github.com/Dexie14/Grazac_challenge2.git](https://github.com/Dexie14/Grazac_challenge2.git)add
+- Solution URL: [https://github.com/Dexie14/Grazac_challenge2.git](https://github.com/Dexie14/Grazac_challenge2.git)
 
 ## My process
 
