@@ -1164,9 +1164,6 @@
         .SECTION10 {
             width: 87%;
         }
-        /* body{
-            position: absolute;
-        } */  
         .foot{
             display: block;
         }
@@ -1201,4 +1198,15 @@
     .headerimage {
         width: 21%;
     }
+}
+
+@media (max-width: 425px){
+      body {
+    position: absolute;
+        }  
+}
+@media (max-width: 375px){
+    body {
+  position: absolute;
+      }  
 }
