@@ -1168,12 +1168,12 @@
             display: block;
         }
         .Hek2 {
-            margin: auto 166px;
+            margin: auto 156px;
         }
         .FT {
-            display: flex;
-            width: 88%;
-            margin: 25px 122px;
+            margin-top: 35px;
+            margin-left: 50px;
+            width: 100vw;
         }
     }
 
