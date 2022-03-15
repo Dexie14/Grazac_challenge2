@@ -741,7 +741,7 @@
 .category img{
     margin-bottom: 10px;
     width: 100%;
-    height: auto;
+    /* height: auto; */
 }
 .category p{
     color: #151875;
@@ -1249,7 +1249,7 @@
             width: 95%;
         }
         .SECTION8 {
-            width: 85%;
+            /* width: 85%; */
             display: grid;
             grid-template-columns: repeat(2, 1fr);
         }
