@@ -80,7 +80,9 @@
     justify-content: space-around;
     list-style: none;
 }
-
+.svg{
+    display: none;
+}
 .headerimage{
     width: 25%;
 }
@@ -185,6 +187,10 @@
 .SECTION2 :not(:last-child){
         margin-right: 7px;
 }
+.S2{
+    flex-direction: row;
+    display: flex;
+    }
 .FP1{
     box-shadow: -6px -11px 17px -5px rgba(49,32,138,0.11);
     -webkit-box-shadow: -6px -11px 17px -5px rgba(49,32,138,0.11);
@@ -242,6 +248,9 @@
 .pics4{
     padding: 10px 0px;
 }
+.pics4 img{
+    padding: 20px 0px;
+}
 .FP1:hover .chair1_text {
     background-color: #2F1AC4;
 }
@@ -255,6 +264,7 @@
     display: flex;
     justify-content: center;
     padding: 15px;
+    margin-top: 40px;
 }
 .chairlines :not(:nth-child(3)){
     margin-right: 3px;
@@ -776,6 +786,7 @@
         background-repeat: no-repeat; 
         background-size: contain;  
         margin-top: 100px;
+        width: 100%;
 }
 .SECTION9{
     display: flex;
@@ -886,6 +897,8 @@
 }
 .Hekto{
     width: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
 }
 .Hekto p{
     font-size: 14px;
@@ -1095,14 +1108,46 @@
     }
 
     @media (max-width: 768px){
+        .svg {
+            display: block;
+            cursor: pointer;
+        }
+        .nav {
+            display: none;
+            /* position: fixed;
+            left: -100%;
+            top: 70px;
+            gap: 0;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 100px; */
+        }
+
+        .headerimage{
+            display: none;
+        }
         .header {
             width: 91%;
         }
         .section_1{
             width: 90%;
         }
+        .section1_icons{
+            padding: 20px;
+        }
         .navB {
             width: 74%;
+        }
+        .SECTION2{
+            display: block;
+            margin: auto;
+        }
+        .S2{
+            margin: auto;
+            justify-content: center;
+            margin-top: 70px;
         }
         .SECTION3 {
             width: 77%;
@@ -1112,6 +1157,37 @@
         }
         .SECTION4 {
             width: 86%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .WSO{
+            width: 100%;
+        }
+        .SECTION4 P{
+            width: 100%;
+        }
+        .SECTION5{
+            display: block;
+        }
+        .SECTION5 .sofa{
+            width: 65%;
+            margin: auto;
+        }
+        .sofa_text{
+            width: 70%;
+            margin: auto;
+        }
+        .sofabutton{
+            margin-bottom: 20px;
+        }
+        .SECTION6 {
+            width: 86%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .TP{
+            width: 100%;
+            margin: 20px 0px;
         }
         .SECTION7 {
             display: block;
@@ -1125,6 +1201,12 @@
         }
         .SECTION8 {
             width: 87%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .category {
+            width: 100%;
+            margin-right: 0px;
         }
         .SECTION9 h5 {
             margin-top: 21px;
@@ -1174,8 +1256,11 @@
             margin-top: 35px;
             margin-left: 50px;
             width: 100%;
+            justify-content: space-between;
         }
     }
+
+    
 
     @media (max-width: 698px){
     .heading{
@@ -1198,12 +1283,29 @@
     .headerimage {
         width: 21%;
     }
+    body {
+      position: absolute;
+    }
+    .SECTION10{
+        display: block;
+    }
+    .FRAME1{
+        width: 85%;
+        margin: 0px auto 20px;
+    }
+    .frame{
+        width: 40%;
+    }
+    .frametext p{
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 425px){
       body {
     position: absolute;
         }  
+
 }
 @media (max-width: 375px){
     body {
