@@ -258,6 +258,8 @@
 }
 .Hekto{
     width: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
 }
 .Hekto p{
     font-size: 14px;
@@ -337,7 +339,23 @@
 .footicons img{
         margin-right: 5px;
 } 
+.FT{
+    display: flex;
+    margin-left: 25px;
+    width: 60%;
+}
             /* responsive */
+@media (max-width: 900px){
+    .Hekto {
+        width: 68%;
+    }
+    .footform {
+        width: 279px;
+    }
+    .foot{
+        margin-left: 0px;
+    }
+}
 
 @media (max-width: 768px){
     body {
@@ -399,6 +417,20 @@
     }
     .headerimage{
         display: none;
+    }
+
+    .foot{
+        display: block;
+    }
+    .Hek2 {
+        margin: auto 156px;
+    }
+    .FT {
+        display: flex;
+        margin-top: 35px;
+        margin-left: 50px;
+        width: 100%;
+        justify-content: space-between;
     }
 }
 
