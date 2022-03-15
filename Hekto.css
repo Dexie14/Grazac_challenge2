@@ -736,7 +736,7 @@
     position: relative;
 }
 .cat{
-    width: 60%;
+    width: 100%;
 }
 .category img{
     margin-bottom: 10px;
@@ -757,15 +757,15 @@
 .ellipse{
     position: absolute;
     z-index: -99;
-    top: 25px;
-    right: 12px;
+    top: 7px;
+    right: 9px;
     display: none;
 }
 .catbut{
     display: none;
     position: absolute;
     z-index: 99;
-    top: 160px;
+    top: 143px;
         color: white;
         background-color: #08D15F;
         border: 1px solid #08D15F;
@@ -790,7 +790,7 @@
 .section_9 {
         background-image: url(./IMAGES/Rectangle\ image.png);
         background-repeat: no-repeat; 
-        background-size: contain;  
+        background-size: cover;  
         margin-top: 100px;
         width: 100%;
 }
